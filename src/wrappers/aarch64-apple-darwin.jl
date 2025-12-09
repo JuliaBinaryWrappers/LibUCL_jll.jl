@@ -3,12 +3,12 @@ export libucl
 
 using LibCURL_jll
 JLLWrappers.@generate_wrapper_header("LibUCL")
-JLLWrappers.@declare_library_product(libucl, "@rpath/libucl.5.dylib")
+JLLWrappers.@declare_library_product(libucl, "@rpath/libucl.7.dylib")
 function __init__()
     JLLWrappers.@generate_init_header(LibCURL_jll)
     JLLWrappers.@init_library_product(
         libucl,
-        "lib/libucl.5.dylib",
+        "lib/libucl.7.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 

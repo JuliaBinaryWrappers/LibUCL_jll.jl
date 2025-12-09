@@ -4,12 +4,12 @@ export libucl
 using LibCURL_jll
 using PCRE_jll
 JLLWrappers.@generate_wrapper_header("LibUCL")
-JLLWrappers.@declare_library_product(libucl, "libucl-5.dll")
+JLLWrappers.@declare_library_product(libucl, "libucl-7.dll")
 function __init__()
     JLLWrappers.@generate_init_header(LibCURL_jll, PCRE_jll)
     JLLWrappers.@init_library_product(
         libucl,
-        "bin\\libucl-5.dll",
+        "bin\\libucl-7.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 

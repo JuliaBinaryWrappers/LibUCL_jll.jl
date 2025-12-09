@@ -1,143 +1,160 @@
 [[LibUCL]]
 arch = "aarch64"
-git-tree-sha1 = "3b05d825a26e9829c35979c128a441d900fbbe64"
+git-tree-sha1 = "1fd367b9a5f707897b79f34669be7b2d66697ca9"
 os = "macos"
 
     [[LibUCL.download]]
-    sha256 = "08d004996d94b7626e921327d70d4942be4cee1fe5f70e837ab8f0ccaf6776ba"
-    url = "https://github.com/JuliaBinaryWrappers/LibUCL_jll.jl/releases/download/LibUCL-v0.8.2+1/LibUCL.v0.8.2.aarch64-apple-darwin.tar.gz"
+    sha256 = "701db97dbda5c081bc5ecd61ccf0c28b4313013b5c95c92472910e5d3c1a5415"
+    url = "https://github.com/JuliaBinaryWrappers/LibUCL_jll.jl/releases/download/LibUCL-v0.9.2+0/LibUCL.v0.9.2.aarch64-apple-darwin.tar.gz"
 [[LibUCL]]
 arch = "aarch64"
-git-tree-sha1 = "d9bb09c2f9e3fa7c980315a5bf44cde669629fbe"
+git-tree-sha1 = "b0096f5b14eaff70d02ae117c403a00a400a285a"
 libc = "glibc"
 os = "linux"
 
     [[LibUCL.download]]
-    sha256 = "19f9f2822e1d89196ae72fc8857e919beab0ce65de5112b72c4365ecef1f3fdd"
-    url = "https://github.com/JuliaBinaryWrappers/LibUCL_jll.jl/releases/download/LibUCL-v0.8.2+1/LibUCL.v0.8.2.aarch64-linux-gnu.tar.gz"
+    sha256 = "9ad1bba14a9960edd8fe9f83f1dfda4fefa753971bcbdf11d72a8d106fb29350"
+    url = "https://github.com/JuliaBinaryWrappers/LibUCL_jll.jl/releases/download/LibUCL-v0.9.2+0/LibUCL.v0.9.2.aarch64-linux-gnu.tar.gz"
 [[LibUCL]]
 arch = "aarch64"
-git-tree-sha1 = "f01062bf64742de0b0bbfb8ed71bb307e369096d"
+git-tree-sha1 = "1a6fe2c6cc2246333a3aa571384ffcb0bc3970a8"
 libc = "musl"
 os = "linux"
 
     [[LibUCL.download]]
-    sha256 = "640e54782397208d34071da00b4249b4be985f5ab219a6a1789746085f24cdaf"
-    url = "https://github.com/JuliaBinaryWrappers/LibUCL_jll.jl/releases/download/LibUCL-v0.8.2+1/LibUCL.v0.8.2.aarch64-linux-musl.tar.gz"
+    sha256 = "bd1796fc817d9f2c2e4cc89d3512531d2047e993d2100e8468301f4517e05470"
+    url = "https://github.com/JuliaBinaryWrappers/LibUCL_jll.jl/releases/download/LibUCL-v0.9.2+0/LibUCL.v0.9.2.aarch64-linux-musl.tar.gz"
 [[LibUCL]]
-arch = "armv6l"
-call_abi = "eabihf"
-git-tree-sha1 = "a566fa96c56b2ceac549a6106af46f6fcae87581"
-libc = "glibc"
-os = "linux"
-
-    [[LibUCL.download]]
-    sha256 = "d9a2787edeeef9febc92f193fa86ed5412675a331c200f5ca619c78efa4fef75"
-    url = "https://github.com/JuliaBinaryWrappers/LibUCL_jll.jl/releases/download/LibUCL-v0.8.2+1/LibUCL.v0.8.2.armv6l-linux-gnueabihf.tar.gz"
-[[LibUCL]]
-arch = "armv6l"
-call_abi = "eabihf"
-git-tree-sha1 = "e594835f37b0f7071e78b69a2edd95d9b62ad4e1"
-libc = "musl"
-os = "linux"
-
-    [[LibUCL.download]]
-    sha256 = "7b43581e4969520fc76ee860033294a4150d3cffa53f4589ca23b0ea42330c48"
-    url = "https://github.com/JuliaBinaryWrappers/LibUCL_jll.jl/releases/download/LibUCL-v0.8.2+1/LibUCL.v0.8.2.armv6l-linux-musleabihf.tar.gz"
-[[LibUCL]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "5f6c3c1185e51a1df0614f20156067c82ed16d2a"
-libc = "glibc"
-os = "linux"
-
-    [[LibUCL.download]]
-    sha256 = "b2819ef9997fad3017661afc5f6b38f4667a5f8a90c036c1c2e364ef9316ec6f"
-    url = "https://github.com/JuliaBinaryWrappers/LibUCL_jll.jl/releases/download/LibUCL-v0.8.2+1/LibUCL.v0.8.2.armv7l-linux-gnueabihf.tar.gz"
-[[LibUCL]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "02b23def75a74062b3d9d1ff28baf7c1a7103410"
-libc = "musl"
-os = "linux"
-
-    [[LibUCL.download]]
-    sha256 = "3a0248c789a8cc4879b985fa154701e1bee5d54be9ebf616f1dd254b4c1ea1f7"
-    url = "https://github.com/JuliaBinaryWrappers/LibUCL_jll.jl/releases/download/LibUCL-v0.8.2+1/LibUCL.v0.8.2.armv7l-linux-musleabihf.tar.gz"
-[[LibUCL]]
-arch = "i686"
-git-tree-sha1 = "d13df524671e0bf7475ae2eb20ae7466ebed0337"
-libc = "glibc"
-os = "linux"
-
-    [[LibUCL.download]]
-    sha256 = "5fae391011c7218ff262d0279a3d1f13325bbb5da61fb5ee2a13f5129067269b"
-    url = "https://github.com/JuliaBinaryWrappers/LibUCL_jll.jl/releases/download/LibUCL-v0.8.2+1/LibUCL.v0.8.2.i686-linux-gnu.tar.gz"
-[[LibUCL]]
-arch = "i686"
-git-tree-sha1 = "f89bbda16920ae86c2b0240691efe809dfa5ed05"
-libc = "musl"
-os = "linux"
-
-    [[LibUCL.download]]
-    sha256 = "a855ad4340d0ed45ce627050654290e0f6f75678dde105b2ba2e450573524483"
-    url = "https://github.com/JuliaBinaryWrappers/LibUCL_jll.jl/releases/download/LibUCL-v0.8.2+1/LibUCL.v0.8.2.i686-linux-musl.tar.gz"
-[[LibUCL]]
-arch = "i686"
-git-tree-sha1 = "856d0146a1a0af1141de4055f6e8c8abef6c6edb"
-os = "windows"
-
-    [[LibUCL.download]]
-    sha256 = "c13e62a631f5b04c183eba0763d8d8b71ec935f4e555fb91dd390796c7f05293"
-    url = "https://github.com/JuliaBinaryWrappers/LibUCL_jll.jl/releases/download/LibUCL-v0.8.2+1/LibUCL.v0.8.2.i686-w64-mingw32.tar.gz"
-[[LibUCL]]
-arch = "powerpc64le"
-git-tree-sha1 = "69419d775d7ebd55bf6c78ca0447b5a118118442"
-libc = "glibc"
-os = "linux"
-
-    [[LibUCL.download]]
-    sha256 = "806da2d7c28724700dea6e7825632ced01316d7866520c1bcc1cc3ee791eabd5"
-    url = "https://github.com/JuliaBinaryWrappers/LibUCL_jll.jl/releases/download/LibUCL-v0.8.2+1/LibUCL.v0.8.2.powerpc64le-linux-gnu.tar.gz"
-[[LibUCL]]
-arch = "x86_64"
-git-tree-sha1 = "ae7c20b035006b9e0effd812f22ea5e1d57fdb01"
-os = "macos"
-
-    [[LibUCL.download]]
-    sha256 = "f64a80d49bfd7b982cc3a04dc8b11eabb5613f7b01d3e844a9fb2a988bc571b9"
-    url = "https://github.com/JuliaBinaryWrappers/LibUCL_jll.jl/releases/download/LibUCL-v0.8.2+1/LibUCL.v0.8.2.x86_64-apple-darwin.tar.gz"
-[[LibUCL]]
-arch = "x86_64"
-git-tree-sha1 = "0fa542a1922ceff83b817a0ef2b103b8d7c5a2cc"
-libc = "glibc"
-os = "linux"
-
-    [[LibUCL.download]]
-    sha256 = "f8fe5d91d22d96e3bf6ff1d7d3ee7adb1505c53d184e7e29b3be5e85b1a811dd"
-    url = "https://github.com/JuliaBinaryWrappers/LibUCL_jll.jl/releases/download/LibUCL-v0.8.2+1/LibUCL.v0.8.2.x86_64-linux-gnu.tar.gz"
-[[LibUCL]]
-arch = "x86_64"
-git-tree-sha1 = "7f11d47b3e3f9425d7a151666854b8037b6439fc"
-libc = "musl"
-os = "linux"
-
-    [[LibUCL.download]]
-    sha256 = "3d5a40640f134eb34ca6e977d7356531b598a7e58d64e58e8b5b6432c1d978ec"
-    url = "https://github.com/JuliaBinaryWrappers/LibUCL_jll.jl/releases/download/LibUCL-v0.8.2+1/LibUCL.v0.8.2.x86_64-linux-musl.tar.gz"
-[[LibUCL]]
-arch = "x86_64"
-git-tree-sha1 = "c822ceac3c805b5e42f7c3eddfa18ca1d94133ea"
+arch = "aarch64"
+git-tree-sha1 = "dd5f8a7d9a1b38e76ab0ebdf205a0535ac1df0d1"
 os = "freebsd"
 
     [[LibUCL.download]]
-    sha256 = "b9f618b604f19077520430ff2b064f2518f3a085f3af6e9c60a7612c637190d8"
-    url = "https://github.com/JuliaBinaryWrappers/LibUCL_jll.jl/releases/download/LibUCL-v0.8.2+1/LibUCL.v0.8.2.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "ba08ddb864c77ea7daef6b4980f66a1ed3f6006f06fabbc66ad967873f2b1d0b"
+    url = "https://github.com/JuliaBinaryWrappers/LibUCL_jll.jl/releases/download/LibUCL-v0.9.2+0/LibUCL.v0.9.2.aarch64-unknown-freebsd.tar.gz"
 [[LibUCL]]
-arch = "x86_64"
-git-tree-sha1 = "4bfc541fdeebafd371286ce3a1f9b54b035c53e9"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "b01549f16f712263c940b4e21f8fef18d7974dfb"
+libc = "glibc"
+os = "linux"
+
+    [[LibUCL.download]]
+    sha256 = "93093da4109741240bd95caa8033e6341eb046cf5e550eec8f1ae36a1adc1004"
+    url = "https://github.com/JuliaBinaryWrappers/LibUCL_jll.jl/releases/download/LibUCL-v0.9.2+0/LibUCL.v0.9.2.armv6l-linux-gnueabihf.tar.gz"
+[[LibUCL]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "8e4c45464120b597e1fffa7b0362845188160619"
+libc = "musl"
+os = "linux"
+
+    [[LibUCL.download]]
+    sha256 = "ffd0823cb9a468be8dad5233b7d7101d46a7893419e45c4ef89f478cec2363dd"
+    url = "https://github.com/JuliaBinaryWrappers/LibUCL_jll.jl/releases/download/LibUCL-v0.9.2+0/LibUCL.v0.9.2.armv6l-linux-musleabihf.tar.gz"
+[[LibUCL]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "117c6c3b7b4e5f1061d28d27869f8e8ca7ad446d"
+libc = "glibc"
+os = "linux"
+
+    [[LibUCL.download]]
+    sha256 = "d3c1fbd2bdf6560792e508048c484c1093569f6c7fe47d0bc6778245aea1ec94"
+    url = "https://github.com/JuliaBinaryWrappers/LibUCL_jll.jl/releases/download/LibUCL-v0.9.2+0/LibUCL.v0.9.2.armv7l-linux-gnueabihf.tar.gz"
+[[LibUCL]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "a42dbfe71ed31f45eb52a4568188b0ad9c8c6189"
+libc = "musl"
+os = "linux"
+
+    [[LibUCL.download]]
+    sha256 = "2c20ce16aff28acf0faff0b37f21134a66b8224c2f62dcb6663235262502dd85"
+    url = "https://github.com/JuliaBinaryWrappers/LibUCL_jll.jl/releases/download/LibUCL-v0.9.2+0/LibUCL.v0.9.2.armv7l-linux-musleabihf.tar.gz"
+[[LibUCL]]
+arch = "i686"
+git-tree-sha1 = "f4279642d843176bfe1bcb8a5136d5f732a3b414"
+libc = "glibc"
+os = "linux"
+
+    [[LibUCL.download]]
+    sha256 = "8e830eb041d7128c7ef01b0871d49069e2ad3ff92373a1eb19ff771c0f0f1d0b"
+    url = "https://github.com/JuliaBinaryWrappers/LibUCL_jll.jl/releases/download/LibUCL-v0.9.2+0/LibUCL.v0.9.2.i686-linux-gnu.tar.gz"
+[[LibUCL]]
+arch = "i686"
+git-tree-sha1 = "d184215cfe594b0e626d11c89a49f12af65b1e8e"
+libc = "musl"
+os = "linux"
+
+    [[LibUCL.download]]
+    sha256 = "a8aeda53351dc0cc0ea5d503bca872d3f54379463af92174f84a2e007d27851b"
+    url = "https://github.com/JuliaBinaryWrappers/LibUCL_jll.jl/releases/download/LibUCL-v0.9.2+0/LibUCL.v0.9.2.i686-linux-musl.tar.gz"
+[[LibUCL]]
+arch = "i686"
+git-tree-sha1 = "3094fc449b7c6622c7d9c93a2207e8005d4f34be"
 os = "windows"
 
     [[LibUCL.download]]
-    sha256 = "77366e5399048f0244d6e4e50fd18080450874b93aa9e2c971ff2faea327dac1"
-    url = "https://github.com/JuliaBinaryWrappers/LibUCL_jll.jl/releases/download/LibUCL-v0.8.2+1/LibUCL.v0.8.2.x86_64-w64-mingw32.tar.gz"
+    sha256 = "6eeb147412a587a8557044723c09d8fcb4e96d84628d433692e8a38c9d68451c"
+    url = "https://github.com/JuliaBinaryWrappers/LibUCL_jll.jl/releases/download/LibUCL-v0.9.2+0/LibUCL.v0.9.2.i686-w64-mingw32.tar.gz"
+[[LibUCL]]
+arch = "powerpc64le"
+git-tree-sha1 = "57a721a077ce2599f4f5a0ee9e8695eacea8d11d"
+libc = "glibc"
+os = "linux"
+
+    [[LibUCL.download]]
+    sha256 = "7b8fb614322d10e07c0185f90b32cabc7cbaf572bb791e52ded6f89cd070caaf"
+    url = "https://github.com/JuliaBinaryWrappers/LibUCL_jll.jl/releases/download/LibUCL-v0.9.2+0/LibUCL.v0.9.2.powerpc64le-linux-gnu.tar.gz"
+[[LibUCL]]
+arch = "riscv64"
+git-tree-sha1 = "13d3e78f440cd67866039485914b7aa411d3b4ff"
+libc = "glibc"
+os = "linux"
+
+    [[LibUCL.download]]
+    sha256 = "17acbdf3336c26f8edf485a2eca6e5adade30fbc07c1b93ad7eac75ba3b587c8"
+    url = "https://github.com/JuliaBinaryWrappers/LibUCL_jll.jl/releases/download/LibUCL-v0.9.2+0/LibUCL.v0.9.2.riscv64-linux-gnu.tar.gz"
+[[LibUCL]]
+arch = "x86_64"
+git-tree-sha1 = "149fcc0a89f36120af2de059367fe87f9e53a8b6"
+os = "macos"
+
+    [[LibUCL.download]]
+    sha256 = "511ac340ac8a628bc3f2e2b43e3a73b4b4197232cb9ee3a6be0a867f9d50704b"
+    url = "https://github.com/JuliaBinaryWrappers/LibUCL_jll.jl/releases/download/LibUCL-v0.9.2+0/LibUCL.v0.9.2.x86_64-apple-darwin.tar.gz"
+[[LibUCL]]
+arch = "x86_64"
+git-tree-sha1 = "5e27742993f2cff8d4bbd43203891ec77fe2f7c6"
+libc = "glibc"
+os = "linux"
+
+    [[LibUCL.download]]
+    sha256 = "45d7041fa8de7dde2ef3cc7fc6010233820031c864de5d5fc2c3882119023620"
+    url = "https://github.com/JuliaBinaryWrappers/LibUCL_jll.jl/releases/download/LibUCL-v0.9.2+0/LibUCL.v0.9.2.x86_64-linux-gnu.tar.gz"
+[[LibUCL]]
+arch = "x86_64"
+git-tree-sha1 = "71107b1bde9b07aa9111ad5d3ff609f135dcda1a"
+libc = "musl"
+os = "linux"
+
+    [[LibUCL.download]]
+    sha256 = "93d8af9a06272f8c11f5b49f7f24a49ac5ff513c7a5e09c0138b98d7ffb82e88"
+    url = "https://github.com/JuliaBinaryWrappers/LibUCL_jll.jl/releases/download/LibUCL-v0.9.2+0/LibUCL.v0.9.2.x86_64-linux-musl.tar.gz"
+[[LibUCL]]
+arch = "x86_64"
+git-tree-sha1 = "44d7c616893daafb2e530463566ec0dfe4080705"
+os = "freebsd"
+
+    [[LibUCL.download]]
+    sha256 = "55822966b580d8c01d186db1a5df4f3fea52afc7dfc5fffe35e7e0b73cb2f5c0"
+    url = "https://github.com/JuliaBinaryWrappers/LibUCL_jll.jl/releases/download/LibUCL-v0.9.2+0/LibUCL.v0.9.2.x86_64-unknown-freebsd.tar.gz"
+[[LibUCL]]
+arch = "x86_64"
+git-tree-sha1 = "805e508526969ac8bd524f8fa01b70cc3ec636e5"
+os = "windows"
+
+    [[LibUCL.download]]
+    sha256 = "c724a2e6fcc3321adcd308c9220618598e5989958baa77e8080663b48c6f05a2"
+    url = "https://github.com/JuliaBinaryWrappers/LibUCL_jll.jl/releases/download/LibUCL-v0.9.2+0/LibUCL.v0.9.2.x86_64-w64-mingw32.tar.gz"
